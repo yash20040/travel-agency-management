@@ -26,7 +26,7 @@ public class Dashboard extends JFrame {
     }
 
     private JPanel buildButtonPanel() {
-        JPanel panel = new JPanel(new GridLayout(2, 2, 15, 15));
+        JPanel panel = new JPanel(new GridLayout(3, 2, 15, 15));
         panel.setBorder(BorderFactory.createEmptyBorder(30, 60, 30, 60));
 
         JButton btnCustomers = new JButton("Manage Customers");
@@ -41,6 +41,10 @@ public class Dashboard extends JFrame {
         btnBooking.addActionListener(e -> new BookingForm(loggedInStaff).setVisible(true));
         panel.add(btnBooking); 
         JButton btnReports = new JButton("View Reports");
+        
+        JButton btnPayments = new JButton("Manage Payments");
+        btnPayments.addActionListener(e -> new PaymentForm().setVisible(true));
+        panel.add(btnPayments);
         
         panel.add(btnReports);
 

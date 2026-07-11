@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travelagency/TravelAgency.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/util/DBConnection.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/util/TestConnection.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/model/Customer.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/model/TripPackage.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/model/Staff.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/model/Booking.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/model/Payment.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/CustomerDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/TestCustomerDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/TripPackageDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/TestTripPackageDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/StaffDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/TestStaffDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/exception/SeatNotAvailableException.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/BookingDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/TestBookingDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/dao/PaymentDAO.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/view/CustomerForm.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/view/TripPackageForm.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/view/LoginForm.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/view/Dashboard.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/TravelAgency/src/travel/agency/view/BookingForm.java</file>
+        </group>
+    </open-files>
+</project-private>
