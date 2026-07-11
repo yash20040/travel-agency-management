@@ -37,6 +37,8 @@ public class PaymentForm extends JFrame {
         add(buildFormPanel(), BorderLayout.NORTH);
         add(buildTablePanel(), BorderLayout.CENTER);
         add(buildButtonPanel(), BorderLayout.SOUTH);
+        
+        if (cmbBooking.getItemCount() > 0) onBookingSelected();
     }
 
     private JPanel buildFormPanel() {
@@ -83,8 +85,16 @@ public class PaymentForm extends JFrame {
         gbc.gridx = 1;
         cmbMethod = new JComboBox<>(new String[]{"Cash", "Card", "Bank Transfer"});
         panel.add(cmbMethod, gbc);
+        
+        gbc.gridx = 0; gbc.gridy = 5;
+        panel.add(new JLabel("Payment Method:"), gbc);
+        gbc.gridx = 1;
+        cmbMethod = new JComboBox<>(new String[]{"Cash", "Card", "Bank Transfer"});
+        panel.add(cmbMethod, gbc);
 
-        return panel;
+        
+         return panel;
+
     }
 
     private JScrollPane buildTablePanel() {
@@ -111,7 +121,6 @@ public class PaymentForm extends JFrame {
         }
         cmbBooking.setRenderer((list, value, index, isSelected, cellHasFocus) ->
                 new JLabel(value == null ? "" : "Booking #" + value.getBookingId() + " - Rs." + value.getTotalAmount()));
-        if (cmbBooking.getItemCount() > 0) onBookingSelected();
     }
 
     private void onBookingSelected() {
