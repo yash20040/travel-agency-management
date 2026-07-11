@@ -2,7 +2,7 @@ package travel.agency.model;
 
 import java.math.BigDecimal;
 
-public class Trip_Package {
+public class TripPackage {
     private int packageId;
     private String packageName;
     private String destination;
@@ -12,9 +12,9 @@ public class Trip_Package {
     private int totalSeats;
     private int seatsAvailable;
 
-    public Trip_Package() {}
+    public TripPackage() {}
 
-    public Trip_Package(int packageId, String packageName, String destination, String description,
+    public TripPackage(int packageId, String packageName, String destination, String description,
                         int durationDays, BigDecimal price, int totalSeats, int seatsAvailable) {
         this.packageId = packageId;
         this.packageName = packageName;
