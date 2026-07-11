@@ -38,9 +38,8 @@ public class Dashboard extends JFrame {
         panel.add(btnPackages);
 
         JButton btnBooking = new JButton("New Booking");
-        
-        panel.add(btnBooking);
-
+        btnBooking.addActionListener(e -> new BookingForm(loggedInStaff).setVisible(true));
+        panel.add(btnBooking); 
         JButton btnReports = new JButton("View Reports");
         
         panel.add(btnReports);
