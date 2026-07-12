@@ -26,8 +26,7 @@ public class ReportForm {
             JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, null, conn);
             System.out.println("Report filled successfully.");
 
-            String outputPath = "reports/BookingSummaryReport.pdf";
-            JasperExportManager.exportReportToPdfFile(jasperPrint, outputPath);
+            String outputPath = System.getProperty("user.home") + "\\BookingSummaryReport.pdf";            JasperExportManager.exportReportToPdfFile(jasperPrint, outputPath);
             System.out.println("PDF exported to: " + new File(outputPath).getAbsolutePath());
 
             File pdfFile = new File(outputPath);
