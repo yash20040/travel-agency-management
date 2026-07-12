@@ -39,13 +39,14 @@ public class Dashboard extends JFrame {
 
         JButton btnBooking = new JButton("New Booking");
         btnBooking.addActionListener(e -> new BookingForm(loggedInStaff).setVisible(true));
-        panel.add(btnBooking); 
-        JButton btnReports = new JButton("View Reports");
-        
+        panel.add(btnBooking);
+
         JButton btnPayments = new JButton("Manage Payments");
         btnPayments.addActionListener(e -> new PaymentForm().setVisible(true));
         panel.add(btnPayments);
-        
+
+        JButton btnReports = new JButton("View Reports");
+        btnReports.addActionListener(e -> ReportForm.showBookingReport());
         panel.add(btnReports);
 
         return panel;
